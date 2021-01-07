@@ -1,0 +1,40 @@
+{
+    "name": "better-code-theme",
+    "displayName": "Better Code Theme",
+    "description": "Make your code pretty!",
+    "version": "1.0.0",
+    "publisher": "Maksiooo2602",
+    "author": {
+      "name": "Maksiooo"
+    },
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Maksiooo/Better-Code-Theme"
+    },
+    "bugs": {
+      "url": "https://github.com/Maksiooo/Better-Code-Theme/issues"
+    },
+    "icon": "logo.png",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+      "Better Code",
+      "Better Code Theme",
+      "Dark Theme",
+      "Theme",
+      "Better Theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Better Code Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Better Code Theme-color-theme.json"
+            }
+        ]
+    }
+}
